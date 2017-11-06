@@ -3,7 +3,6 @@ var computed = require('computed-style')
 var ndjson = require('ndjson')
 var duplexify = require('duplexify')
 var defaultcss = require('defaultcss')
-var fs = require('fs')
 
 var on = function(elem, evt, fn) { // TODO: find module
   elem.addEventListener(evt, fn, false)
@@ -20,7 +19,6 @@ module.exports = function(opts) {
 
   result.appendTo = function(elem) {
     if (typeof elem === 'string') elem = document.querySelector(elem)
-    if (opts.style !== false) defaultcss('docker-browser-console', require('./style'))
     elem.className += ' docker-browser-console'
 
     var dimensions = function() {
