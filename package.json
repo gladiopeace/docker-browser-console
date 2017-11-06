@@ -1,6 +1,6 @@
 {
   "name": "docker-browser-console-nextjs",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Forward input/output from docker containers to your browser. This repository removes the fs dependency for compatibility with the nextjs framework",
   "main": "index.js",
   "browser": "browser.js",

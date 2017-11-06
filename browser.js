@@ -1,4 +1,4 @@
-var Terminal = require('term.js')
+var Terminal = require('term.js-nextjs')
 var computed = require('computed-style')
 var ndjson = require('ndjson')
 var duplexify = require('duplexify')
