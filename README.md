@@ -1,3 +1,6 @@
+```diff
+- This repository removes the fs dependency for compatibility with the nextjs framework
+```
 # docker-browser-console
 
 Forward input/output from docker containers to your browser
